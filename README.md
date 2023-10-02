@@ -27,6 +27,10 @@ Verifique se todos os dados foram inseridos;
 
  Criação da tabela PRODUTOS
 
+
+ [Uploading PRODUTOS.sql…]()
+
+
  #### codigo:
 
     [Uploa-- Criação da tabela PRODUTOS
