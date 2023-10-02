@@ -94,6 +94,6 @@ Selecione a quantidade de produtos de cada nacionalidade.
 
 
 ## Publicação
-https://m.apkpure.com/br/flappygame/com.mygdx.game.flappybird
 
-## Última atualização 01/01/21
+
+## Última atualização 01/10/21
