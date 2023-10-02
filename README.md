@@ -25,10 +25,12 @@ Após a criação insira cinco produtos, todos devem ter seus respectivos campos
 Verifique se todos os dados foram inseridos;
 
 
+ Criação da tabela PRODUTOS
 
+ #### codigo:
 
--- Criação da tabela PRODUTOS
-CREATE TABLE PRODUTOS (
+    [Uploa-- Criação da tabela PRODUTOS
+    CREATE TABLE PRODUTOS (
     ID              INT primary key,           -- Coluna ID como chave primária
     NOME            VARCHAR (280) not null,    -- Coluna NOME com limite de 280 caracteres e não nula
     PREÇO           DECIMAL (10,2) not null,   -- Coluna PREÇO como número decimal (10,2) e não nula
@@ -36,23 +38,25 @@ CREATE TABLE PRODUTOS (
     PERECIVEL       VARCHAR (280) not null,    -- Coluna PERECIVEL com limite de 280 caracteres e não nula
     MARCA           VARCHAR (280),             -- Coluna MARCA com limite de 280 caracteres (pode ser nula)
     NACIONALIDADE   VARCHAR (280)              -- Coluna NACIONALIDADE com limite de 280 caracteres (pode ser nula)
-);
+    );
 
--- Inserção de dados na tabela PRODUTOS
-INSERT INTO PRODUTOS (ID, NOME, PREÇO, ESTOQUE, PERECIVEL, MARCA, NACIONALIDADE)
-VALUES
-(1, 'pringles', 8.00, 100, 'sim', 'Kellogg''s', 'Americana'),  -- Insere o primeiro registro com valores específicos do produto
-(2, 'yakult', 5.00, 1000, 'sim', 'yalult', 'Japonesa'),        -- Insere o segundo registro com valores específicos do produto
-(3, 'miojo', 8.00, 800, 'nao', 'turma da monica', 'Brasileira'), -- Insere o terceiro registro com valores específicos do produto
-(4, 'chocolate', 50.00, 500, 'sim', 'milka', 'Suíça'),          -- Insere o quarto registro com valores específicos do produto
-(5, 'cereal', 20.00, 250, 'sim', 'Kellogg''s', 'Americana');    -- Insere o quinto registro com valores específicos do produto
-
-[PRODUTOS.txt](https://github.com/RaFFaRaFFaR/BANCOS_DE_DADOS/files/12778811/PRODUTOS.txt)
+    -- Inserção de dados na tabela PRODUTOS
+    INSERT INTO PRODUTOS (ID, NOME, PREÇO, ESTOQUE, PERECIVEL, MARCA, NACIONALIDADE)
+    VALUES
+    (1, 'pringles', 8.00, 100, 'sim', 'Kellogg''s', 'Americana'),  -- Insere um registro com valores específicos
+    (2, 'yakult', 5.00, 1000, 'sim', 'yalult', 'Japonesa'),        -- Insere outro registro com valores específicos
+    (3, 'miojo', 8.00, 800, 'nao', 'turma da monica', 'Brasileira'), -- Insere outro registro com valores específicos
+    (4, 'chocolate', 50.00, 500, 'sim', 'milka', 'Suíça'),          -- Insere outro registro com valores específicos
+    (5, 'cereal', 20.00, 250, 'sim', 'Kellogg''s', 'Americana');    -- Insere outro registro com valores específicos
 
 
 
+    
 
-## ETAPA2
+
+
+
+## ETAPA 2
 Gere um relatório informando quantos produtos estão cadastrados;
 
 ![Quantidade de produtos cadastrados](https://github.com/RaFFaRaFFaR/BANCOS_DE_DADOS/assets/127689567/d6551dae-6670-46b1-b7d0-dcb88f6f7869)
@@ -92,8 +96,22 @@ Selecione a quantidade de produtos de cada nacionalidade.
 
 ![Quantidade de produtos de cada nacionalidade](https://github.com/RaFFaRaFFaR/BANCOS_DE_DADOS/assets/127689567/6633381e-eac1-4ac1-b7af-2570c7671b8a)
 
+## ETAPA 3
 
-## Publicação
+Execute toda a atividade no WorkBench da Oracle;
+
+Comente o código esclarecendo o que está sendo feito no bloco de código;
+
+Crie um repositório remoto (GITHUB);
+
+Envie somente o script SQL para o repositório;
+
+Crie o ReadMe com base no modelo disponibilizado em aula;
+
+Tire um print da tela do WorkBench e insira no ReadMe;
+
+Envie na atividade somente o link do repositório criado.
+
 
 
 ## Última atualização 01/10/21
